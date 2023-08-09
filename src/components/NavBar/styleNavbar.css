@@ -1,0 +1,10 @@
+.contenedor{
+    background-color: gray;
+}
+
+.navBar{
+    margin: 0 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
