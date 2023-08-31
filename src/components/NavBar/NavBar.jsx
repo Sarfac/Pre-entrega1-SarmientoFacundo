@@ -8,9 +8,9 @@ const NavBar = () =>{
             <nav className="navBar">
                 <h2>Tienda Virtual</h2>
                 <div>
-                    <button>Camisetas</button>
-                    <button>Pantalones</button>
-                    <button>Buzos</button>
+                    <button className="btn">Camisetas</button>
+                    <button className="btn">Pantalones</button>
+                    <button className="btn">Buzos</button>
                 </div>
                 <CartWidget />
             </nav>

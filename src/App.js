@@ -1,15 +1,15 @@
-
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
-function App() {
+const  App = ()=> {
   return (
     <div className="App">
         <NavBar />
-        <ItemListContainer greeting={"Bienvenidos a la tienda virtual"} />
+        <ItemListContainer />
     </div>
   );
 }
 
 export default App;
+
