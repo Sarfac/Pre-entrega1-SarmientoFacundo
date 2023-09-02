@@ -1,5 +1,5 @@
 import { useState,useEffect } from "react"
-import { pedirDatos } from "./pedirDatos.js"
+import { pedirDatos } from "../../pedirDatos.js"
 import ItemList  from "../ItemList/ItemList.jsx"
 
 const ItemListContainer = () =>{
@@ -14,7 +14,7 @@ const ItemListContainer = () =>{
     })
 
     return(
-        <div >
+        <div>
             <ItemList productos={productos} />
         </div>
     )

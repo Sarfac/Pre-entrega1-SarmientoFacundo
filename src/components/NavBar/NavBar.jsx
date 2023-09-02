@@ -4,13 +4,13 @@ import "./styleNavbar.css";
 const NavBar = () =>{
 
     return(
-        <div className="contenedor">
+        <div className="contenedor-nav">
             <nav className="navBar">
                 <h2>Tienda Virtual</h2>
                 <div>
-                    <button className="btn">Camisetas</button>
-                    <button className="btn">Pantalones</button>
-                    <button className="btn">Buzos</button>
+                    <button className="btn">Inicio</button>
+                    <button className="btn">Nosotros</button>
+                    <button className="btn">Contacto</button>
                 </div>
                 <CartWidget />
             </nav>

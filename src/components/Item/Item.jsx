@@ -5,8 +5,11 @@ const Item = ( {producto} )=> {
         <div className="card">
             <h2>{producto.nombre}</h2>
             <img src={producto.img} alt="" />
-            <p>Precio:$ {producto.precio}</p>
-            <a href={producto.id}>Comprar</a>
+            <div className="card-info">
+                <p>Precio:$ {producto.precio}</p>
+                <a className="btn" href={producto.id}>+ Ver mas</a>
+            </div>
+            
         </div>
     )
 }

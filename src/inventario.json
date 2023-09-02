@@ -4,7 +4,7 @@
         "nombre" :"Angular",
         "precio" : 2000,
         "img" : "https://i.imgur.com/SyipDcd.jpg",
-        "cant" : 1
+        "descrip" : 1
 
     },
     {
@@ -12,7 +12,7 @@
         "nombre" :"HTML",
         "precio" : 4000,
         "img" : "https://i.imgur.com/tQTPxAO.jpg",
-        "cant" : 1
+        "descrip" : 1
 
     },
     {
@@ -20,7 +20,7 @@
         "nombre" :"JavaScript",
         "precio" : 2500,
         "img" : "https://i.imgur.com/mWkCtu5.jpg",
-        "cant" : 1
+        "descrip" : 1
 
     },
     {
@@ -28,7 +28,7 @@
         "nombre" :"Bulma",
         "precio" : 3000,
         "img" : "https://i.imgur.com/PnDJoEt.jpg",
-        "cant" : 1
+        "descrip" : 1
 
     },
     {
@@ -36,7 +36,7 @@
         "nombre" :"Drupal",
         "precio" : 4000,
         "img" : "https://i.imgur.com/q6kAYJJ.jpg",
-        "cant" : 1
+        "descrip" : 1
 
     },
     {
@@ -44,7 +44,7 @@
         "nombre" :"Git",
         "precio" : 4500,
         "img" : "https://i.imgur.com/KHvAE63.jpg",
-        "cant" : 1
+        "descrip" : 1
 
     },
     {
@@ -52,7 +52,7 @@
         "nombre" :"GraphQL",
         "precio" : 3000,
         "img" : "https://i.imgur.com/fbAbGrv.jpg",
-        "cant" : 1
+        "descrip" : 1
 
     },
     {
@@ -60,7 +60,7 @@
         "nombre" :"NodeJS",
         "precio" : 3500,
         "img" : "https://i.imgur.com/lxbb5YW.jpg",
-        "cant" : 1
+        "descrip" : 1
 
     },
     {
@@ -68,7 +68,7 @@
         "nombre" :"React",
         "precio" : 2500,
         "img" : "https://i.imgur.com/9gu4ocr.jpg",
-        "cant" : 1
+        "descrip" : 1
 
     },
     {
@@ -76,7 +76,7 @@
         "nombre" :"Redux",
         "precio" : 2600,
         "img" : "https://i.imgur.com/brsRO67.jpg",
-        "cant" : 1
+        "descrip" : 1
 
     },
     {
@@ -84,7 +84,7 @@
         "nombre" :"Sass",
         "precio" : 2700,
         "img" : "https://i.imgur.com/qNr1TT2.jpg",
-        "cant" : 1
+        "descrip" : 1
 
     },
     {
@@ -92,7 +92,7 @@
         "nombre" :"TypeScrip",
         "precio" : 4000,
         "img" : "https://i.imgur.com/y6bFn8H.jpg",
-        "cant" : 1
+        "descrip" : 1
 
     },
     {
@@ -100,7 +100,7 @@
         "nombre" :"Vue JS",
         "precio" : 5000,
         "img" : "https://i.imgur.com/UgOJJio.jpg",
-        "cant" : 1
+        "descrip" : 1
 
     },
     {
@@ -108,7 +108,7 @@
         "nombre" :"Word Press",
         "precio" : 2500,
         "img" : "https://i.imgur.com/6iPfYwq.jpg",
-        "cant" : 1
+        "descrip" : 1
 
     }
 ]
