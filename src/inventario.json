@@ -4,7 +4,8 @@
         "nombre" :"Angular",
         "precio" : 2000,
         "img" : "https://i.imgur.com/SyipDcd.jpg",
-        "descrip" : 1
+        "categoria" : "avanzado",
+        "descrip" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra."
 
     },
     {
@@ -12,7 +13,8 @@
         "nombre" :"HTML",
         "precio" : 4000,
         "img" : "https://i.imgur.com/tQTPxAO.jpg",
-        "descrip" : 1
+        "categoria" : "inicial",
+        "descrip" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra."
 
     },
     {
@@ -20,7 +22,8 @@
         "nombre" :"JavaScript",
         "precio" : 2500,
         "img" : "https://i.imgur.com/mWkCtu5.jpg",
-        "descrip" : 1
+        "categoria" : "inicial",
+        "descrip" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra."
 
     },
     {
@@ -28,7 +31,8 @@
         "nombre" :"Bulma",
         "precio" : 3000,
         "img" : "https://i.imgur.com/PnDJoEt.jpg",
-        "descrip" : 1
+        "categoria" : "avanzado",
+        "descrip" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra."
 
     },
     {
@@ -36,7 +40,8 @@
         "nombre" :"Drupal",
         "precio" : 4000,
         "img" : "https://i.imgur.com/q6kAYJJ.jpg",
-        "descrip" : 1
+        "categoria" : "avanzado",
+        "descrip" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra."
 
     },
     {
@@ -44,7 +49,8 @@
         "nombre" :"Git",
         "precio" : 4500,
         "img" : "https://i.imgur.com/KHvAE63.jpg",
-        "descrip" : 1
+        "categoria" : "inicial",
+        "descrip" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra."
 
     },
     {
@@ -52,7 +58,8 @@
         "nombre" :"GraphQL",
         "precio" : 3000,
         "img" : "https://i.imgur.com/fbAbGrv.jpg",
-        "descrip" : 1
+        "categoria" : "avanzado",
+        "descrip" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra."
 
     },
     {
@@ -60,7 +67,8 @@
         "nombre" :"NodeJS",
         "precio" : 3500,
         "img" : "https://i.imgur.com/lxbb5YW.jpg",
-        "descrip" : 1
+        "categoria" : "avanzado",
+        "descrip" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra."
 
     },
     {
@@ -68,7 +76,8 @@
         "nombre" :"React",
         "precio" : 2500,
         "img" : "https://i.imgur.com/9gu4ocr.jpg",
-        "descrip" : 1
+        "categoria" : "avanzado",
+        "descrip" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra."
 
     },
     {
@@ -76,7 +85,8 @@
         "nombre" :"Redux",
         "precio" : 2600,
         "img" : "https://i.imgur.com/brsRO67.jpg",
-        "descrip" : 1
+        "categoria" : "avanzado",
+        "descrip" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra."
 
     },
     {
@@ -84,7 +94,8 @@
         "nombre" :"Sass",
         "precio" : 2700,
         "img" : "https://i.imgur.com/qNr1TT2.jpg",
-        "descrip" : 1
+        "categoria" : "inicial",
+        "descrip" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra."
 
     },
     {
@@ -92,7 +103,8 @@
         "nombre" :"TypeScrip",
         "precio" : 4000,
         "img" : "https://i.imgur.com/y6bFn8H.jpg",
-        "descrip" : 1
+        "categoria" : "avanzado",
+        "descrip" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra."
 
     },
     {
@@ -100,7 +112,8 @@
         "nombre" :"Vue JS",
         "precio" : 5000,
         "img" : "https://i.imgur.com/UgOJJio.jpg",
-        "descrip" : 1
+        "categoria" : "avanzado",
+        "descrip" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra."
 
     },
     {
@@ -108,7 +121,8 @@
         "nombre" :"Word Press",
         "precio" : 2500,
         "img" : "https://i.imgur.com/6iPfYwq.jpg",
-        "descrip" : 1
+        "categoria" : "inicial",
+        "descrip" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra."
 
     }
 ]

@@ -1,4 +1,5 @@
-import CartWidget from "../CardWidget/CardWidget";
+import { Link } from "react-router-dom";
+import CartWidget from "../CartWidget/CartWidget";
 import "./styleNavbar.css";
 
 const NavBar = () =>{
@@ -6,11 +7,10 @@ const NavBar = () =>{
     return(
         <div className="contenedor-nav">
             <nav className="navBar">
-                <h2>Tienda Virtual</h2>
+                <Link className="btn" to="/" >Tienda Virtual </Link>
                 <div>
-                    <button className="btn">Inicio</button>
-                    <button className="btn">Nosotros</button>
-                    <button className="btn">Contacto</button>
+                    <Link className="btn" to="/categoria/inicial">Inicial </Link>
+                    <Link className="btn" to="/categoria/avanzado">Avanzado </Link>
                 </div>
                 <CartWidget />
             </nav>
