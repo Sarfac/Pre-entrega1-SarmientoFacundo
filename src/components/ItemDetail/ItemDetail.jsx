@@ -12,7 +12,7 @@ const ItemDetail = ( {produc} ) => {
                     <p>{produc.nombre}</p>
                     <p>{produc.descrip}</p>
                 </div>
-                <ItemCount />
+                <ItemCount item={produc}/>
             </div>
         </div>
     )

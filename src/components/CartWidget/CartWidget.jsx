@@ -1,11 +1,17 @@
+import { Link } from "react-router-dom"
 import cart from "./assets/cart.svg"
+import { useContext } from "react"
+import { CartContex } from "../../contex/CartContex"
 
 const CartWidget= () =>{
 
+    const { cantCarrito } = useContext(CartContex)
     return (
         <div>
-            <img src={cart} alt="cart"/>
-            0
+            <Link to='/carrito'><img src={cart} alt="cart"/>
+                <span>{cantCarrito()}</span>
+            </Link>
+            
         </div>
     )
 }
