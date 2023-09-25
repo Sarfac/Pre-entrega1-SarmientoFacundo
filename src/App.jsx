@@ -3,9 +3,11 @@ import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import Carrito from './components/Carrito/Carrito'
+import Checkout from './components/Checkout/Checkout';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import { CartContex } from './contex/CartContex';
 import { useState } from 'react';
+
 
 const  App = ()=> {
 
@@ -33,6 +35,7 @@ const  App = ()=> {
             <Route path="/item/:id" element = {<ItemDetailContainer />} />
             <Route path="/categoria/:categoria" element = {<ItemListContainer />} />
             <Route path="/carrito" element = { <Carrito />} />
+            <Route path="/checkout" element = { <Checkout />} />
           </Routes>
           
         </BrowserRouter>

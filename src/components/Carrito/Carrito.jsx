@@ -1,13 +1,15 @@
 import { useContext } from "react"
 import { CartContex } from "../../contex/CartContex"
+import { Link } from "react-router-dom"
+import "./carrito.css"
 
 const Carrito = ()=> {
 
-    const { carrito , precioTotal } = useContext(CartContex)
+    const { carrito , precioTotal , setCarrito } = useContext(CartContex)
 
  
     return (
-        <div>
+        <div className="contenedor">
             {
             carrito.map((producto) => (
                 <div key={producto.id}>
@@ -20,7 +22,8 @@ const Carrito = ()=> {
             }
             
             <h3>Precio Total: $ {precioTotal()}</h3>
-            <button>Vaciar Carrito</button>
+            <button className="btn" onClick={()=>{setCarrito([])}} >Vaciar Carrito</button>
+            <Link className="btn" to="/checkout">Finalizar Compra</Link>
             
         </div>
     )

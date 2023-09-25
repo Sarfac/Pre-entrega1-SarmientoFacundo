@@ -1,0 +1,14 @@
+.carrito{
+    display: flex;
+    height: 2rem;
+}
+
+.contador{
+    font-size: 1rem;
+    background-color: red;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
